@@ -34,6 +34,5 @@ export function addErrorsToData(data, errors) {
             }
         }
     }
-
     return modifiedData;
 }
