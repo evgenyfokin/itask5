@@ -1,6 +1,7 @@
 export function addErrorsToData(data, errors) {
     const modifiedData = data.map(item => ({ ...item }));
 
+
     for (let i = 0; i < modifiedData.length; i++) {
         for (let j = 0; j < errors; j++) {
             const errorType = Math.floor(Math.random() * 3);
